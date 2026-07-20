@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>机器人招标商机 · leadbot</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: { 50:'#f7f8fa', 100:'#eef0f4', 200:'#dde1e9', 300:'#b9bfcb', 400:'#8a93a3', 500:'#5a6478', 600:'#3e4658', 700:'#2a3142', 800:'#1a1f2e', 900:'#0e1220' },
+        brand: { 50:'#eef6ff', 100:'#d9eaff', 200:'#b7d7ff', 300:'#88beff', 400:'#519bff', 500:'#2779ff', 600:'#155ef0', 700:'#0e4ad0', 800:'#0f3fa6', 900:'#113a82' },
+      },
+      fontFamily: {
+        sans: ['-apple-system','BlinkMacSystemFont','"PingFang SC"','"Microsoft YaHei"','sans-serif'],
+        mono: ['ui-monospace','SFMono-Regular','SF Mono','Menlo','monospace']
+      }
+    }
+  }
+}
+</script>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f7fb; color: #1a1f2e; }
+  .scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: #cbd2dd; border-radius: 3px; }
+  .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
+  .card-shadow { box-shadow: 0 1px 2px rgba(15,23,42,.04), 0 1px 1px rgba(15,23,42,.03); }
+  .card-shadow-hover { box-shadow: 0 4px 16px rgba(15,23,42,.08), 0 2px 4px rgba(15,23,42,.04); }
+  .chip { display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:999px; font-size:11px; line-height:18px; font-weight:500; }
+  .chip-blue { background:#e8f0ff; color:#155ef0; }
+  .chip-green { background:#e8f6ec; color:#0a7541; }
+  .chip-amber { background:#fff5e0; color:#9a5a00; }
+  .chip-rose { background:#ffe9ed; color:#a8123a; }
+  .chip-violet { background:#f0eaff; color:#5521b8; }
+  .chip-slate { background:#eef0f4; color:#3e4658; }
+  .chip-cyan { background:#dff7f5; color:#0a6e6a; }
+  .filter-chip { display:inline-flex; align-items:center; gap:4px; padding:3px 6px 3px 10px; border-radius:999px; background:#eef6ff; color:#155ef0; font-size:12px; line-height:18px; font-weight:500; border:1px solid #d0e3ff; cursor:pointer; }
+  .filter-chip button { width:14px; height:14px; display:inline-flex; align-items:center; justify-content:center; border-radius:999px; background:transparent; border:0; color:#155ef0; }
+  .filter-chip:hover { background:#d9eaff; }
+  .slide-in { transform: translateX(100%); transition: transform .25s cubic-bezier(.2,.8,.2,1); }
+  .slide-in.open { transform: translateX(0); }
+  .fade-in { opacity:0; transition: opacity .15s ease; }
+  .fade-in.show { opacity:1; }
+  .nav-tab { padding:8px 14px; font-size:13px; font-weight:500; color:#5a6478; border-radius:8px; cursor:pointer; }
+  .nav-tab.active { background:#fff; color:#155ef0; box-shadow: 0 1px 2px rgba(15,23,42,.06); }
+  .sort-btn { display:inline-flex; align-items:center; gap:4px; padding:6px 10px; border-radius:6px; font-size:12px; color:#3e4658; background:#fff; border:1px solid #dde1e9; cursor:pointer; }
+  .sort-btn.active { background:#eef6ff; color:#155ef0; border-color:#b7d7ff; }
+  .seg-btn { padding:6px 10px; font-size:12px; color:#3e4658; background:#fff; border:1px solid #dde1e9; cursor:pointer; }
+  .seg-btn:first-child { border-radius:6px 0 0 6px; }
+  .seg-btn:last-child { border-radius:0 6px 6px 0; }
+  .seg-btn:not(:first-child) { border-left:0; }
+  .seg-btn.active { background:#eef6ff; color:#155ef0; border-color:#b7d7ff; z-index:1; position:relative; }
+  details > summary { list-style:none; cursor:pointer; }
+  details > summary::-webkit-details-marker { display:none; }
+  details[open] .chev { transform: rotate(90deg); }
+  .chev { transition: transform .15s ease; }
+  .lead-card { transition: box-shadow .15s ease, transform .15s ease, border-color .15s ease; }
+  .lead-card:hover { border-color: #b7d7ff; }
+  .lead-card.selected { border-color: #519bff; box-shadow: 0 0 0 3px rgba(81,155,255,.15); }
+  .pulse-dot { display:inline-block; width:6px; height:6px; border-radius:999px; background:#16a34a; box-shadow: 0 0 0 0 rgba(22,163,74,.6); animation: pulse 2s infinite; }
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(22,163,74,.6); }
+    70% { box-shadow: 0 0 0 8px rgba(22,163,74,0); }
+    100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
+  }
+  .kbd { font-family: ui-monospace, monospace; font-size:11px; background:#eef0f4; padding:1px 5px; border-radius:4px; border:1px solid #dde1e9; color:#5a6478; }
+  .confidence-bar { height:4px; border-radius:999px; background:#eef0f4; overflow:hidden; }
+  .confidence-fill { height:100%; border-radius:999px; }
+  .empty-state { padding: 60px 20px; text-align:center; color:#8a93a3; }
+</style>
+</head>
+<body class="text-ink-800">
+
+<!-- ========== 顶部 ========== -->
+<header class="bg-white border-b border-ink-100 sticky top-0 z-30">
+  <div class="max-w-[1480px] mx-auto px-6 py-3 flex items-center gap-6">
+    <div class="flex items-center gap-2 shrink-0">
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg>
+      </div>
+      <div class="leading-tight flex items-center gap-1.5">
+        <div class="font-semibold text-ink-900">leadbot</div>
+        <span class="chip chip-amber text-[9px] py-0">示例</span>
+      </div>
+      <div class="text-[11px] text-ink-400 -mt-1">机器人招标商机查询 · schema demo</div>
+    </div>
+    <nav class="flex items-center gap-1">
+      <div class="nav-tab active">商机看板</div>
+      <div class="nav-tab">信源管理</div>
+      <div class="nav-tab">订阅推送</div>
+      <div class="nav-tab">原始条目</div>
+    </nav>
+    <div class="flex-1 max-w-xl relative">
+      <svg class="absolute left-3 top-1/2 -translate-y-1/2 text-ink-400" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="globalSearch" type="text" placeholder="搜索标题、部件、需求方…  按 ⌘K 聚焦" class="w-full pl-9 pr-16 py-2 rounded-lg bg-ink-50 border border-ink-100 text-sm focus:outline-none focus:ring-2 focus:ring-brand-200 focus:bg-white">
+      <span class="absolute right-3 top-1/2 -translate-y-1/2 kbd">⌘K</span>
+    </div>
+    <div class="flex items-center gap-3 shrink-0">
+      <span class="text-xs text-ink-400 flex items-center gap-1.5"><span class="pulse-dot"></span>Worker 运行中</span>
+      <button class="btn-ghost text-sm text-ink-600 hover:text-ink-900 px-3 py-1.5 rounded-md hover:bg-ink-50">导出</button>
+      <button class="text-sm bg-brand-600 hover:bg-brand-700 text-white px-3 py-1.5 rounded-md">+ 新增商机</button>
+      <div class="w-8 h-8 rounded-full bg-gradient-to-br from-brand-200 to-brand-400 flex items-center justify-center text-xs font-semibold text-brand-800">ZJ</div>
+    </div>
+  </div>
+</header>
+
+<div class="max-w-[1480px] mx-auto px-6 py-4">
+
+  <!-- ========== 数据说明 ========== -->
+  <div class="bg-emerald-50 border border-emerald-200 rounded-lg px-4 py-2.5 mb-3 flex items-start gap-2 text-emerald-900">
+    <svg class="mt-0.5 shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+    <div class="text-xs leading-relaxed">
+      <span class="font-semibold">已接入 <span id="srcCount">0</span> 个真实信源</span> ·
+      <span id="leadCount">0</span> 条商机来自:
+      <span class="font-medium" id="src1">CCGP(<span id="src1c">0</span>)</span>、
+      <span class="font-medium" id="src2">中国机器人网(<span id="src2c">0</span>)</span>、
+      <span class="font-medium" id="src3">中招国际(<span id="src3c">0</span>)</span>、
+      <span class="font-medium" id="src4">中国公共采购网(<span id="src4c">0</span>)</span>、
+      <span class="font-medium" id="src5">必联网(<span id="src5c">0</span>)</span>、
+      <span class="font-medium" id="src6">中招联合(<span id="src6c">0</span>)</span>。
+      包含真实机器人/无人机/智能体/AGV/机械臂的招标公告 + 行业动态。
+      SOURCES 目录共 42 个源(其余 36 个待接入,自动抓取脚本每天更新)。
+      <span class="text-ink-500">最后更新: <span id="lastUpdate">2026-07-20</span></span>
+    </div>
+  </div>
+
+  <!-- ========== 统计卡片 ========== -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
+    <div class="bg-white rounded-xl p-4 card-shadow border border-ink-100">
+      <div class="text-xs text-ink-400 mb-1">商机总数</div>
+      <div class="flex items-baseline gap-2">
+        <span id="statTotal" class="text-2xl font-semibold text-ink-900">--</span>
+        <span class="text-xs text-emerald-600">↑ 12.4%</span>
+      </div>
+      <div class="text-[11px] text-ink-400 mt-1">本周新增 <span id="statThisWeek" class="text-ink-700 font-medium">--</span></div>
+    </div>
+    <div class="bg-white rounded-xl p-4 card-shadow border border-ink-100">
+      <div class="text-xs text-ink-400 mb-1">采购类</div>
+      <div class="flex items-baseline gap-2">
+        <span id="statProc" class="text-2xl font-semibold text-ink-900">--</span>
+        <span class="text-xs text-ink-400">占 <span id="statProcPct">--</span></span>
+      </div>
+      <div class="text-[11px] text-ink-400 mt-1">含 OEM/方案</div>
+    </div>
+    <div class="bg-white rounded-xl p-4 card-shadow border border-ink-100">
+      <div class="text-xs text-ink-400 mb-1">高置信 (≥0.8)</div>
+      <div class="flex items-baseline gap-2">
+        <span id="statHighConf" class="text-2xl font-semibold text-ink-900">--</span>
+        <span class="text-xs text-ink-400">可推送</span>
+      </div>
+      <div class="text-[11px] text-ink-400 mt-1">低置信 <span id="statLowConf" class="text-amber-600 font-medium">--</span> 条</div>
+    </div>
+    <div class="bg-white rounded-xl p-4 card-shadow border border-ink-100">
+      <div class="text-xs text-ink-400 mb-1">本月截止</div>
+      <div class="flex items-baseline gap-2">
+        <span id="statDeadline" class="text-2xl font-semibold text-ink-900">--</span>
+        <span class="text-xs text-rose-600">需关注</span>
+      </div>
+      <div class="text-[11px] text-ink-400 mt-1">最早 <span id="statEarliest">--</span></div>
+    </div>
+  </div>
+
+  <!-- ========== 主体 ========== -->
+  <div class="grid grid-cols-[280px_1fr] gap-4">
+
+    <!-- ====== 左侧筛选 ====== -->
+    <aside class="bg-white rounded-xl border border-ink-100 card-shadow self-start sticky top-[80px] max-h-[calc(100vh-100px)] overflow-y-auto scrollbar-thin">
+      <div class="p-4 border-b border-ink-100 flex items-center justify-between">
+        <h3 class="font-semibold text-sm">筛选</h3>
+        <button id="clearAll" class="text-xs text-brand-600 hover:underline">清空</button>
+      </div>
+
+      <!-- 商机类型 -->
+      <details open class="px-4 py-3 border-b border-ink-100">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>商机类型</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-2 space-y-1.5" id="filterLeadType"></div>
+      </details>
+
+      <!-- 产品品类 -->
+      <details open class="px-4 py-3 border-b border-ink-100">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>产品品类</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-2 space-y-1.5 max-h-56 overflow-y-auto scrollbar-thin" id="filterCategory"></div>
+      </details>
+
+      <!-- 地区 -->
+      <details open class="px-4 py-3 border-b border-ink-100">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>地区</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-2 space-y-1.5" id="filterRegion"></div>
+      </details>
+
+      <!-- 规模 -->
+      <details class="px-4 py-3 border-b border-ink-100">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>需求方规模</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-2 space-y-1.5" id="filterSize"></div>
+      </details>
+
+      <!-- 信源 -->
+      <details open class="px-4 py-3 border-b border-ink-100">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>信源</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-2 space-y-1.5 max-h-64 overflow-y-auto scrollbar-thin" id="filterSource"></div>
+      </details>
+
+      <!-- 跟进状态 -->
+      <details class="px-4 py-3 border-b border-ink-100">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>跟进状态</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-2 space-y-1.5" id="filterStatus"></div>
+      </details>
+
+      <!-- 数量 -->
+      <details class="px-4 py-3 border-b border-ink-100">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>估算数量</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-3 space-y-2">
+          <div class="flex items-center justify-between text-xs text-ink-500">
+            <span>下界 <span id="qtyMinLabel" class="text-ink-800 font-medium">0</span></span>
+            <span>上界 <span id="qtyMaxLabel" class="text-ink-800 font-medium">不限</span></span>
+          </div>
+          <input id="qtyMin" type="range" min="0" max="50000" step="100" value="0" class="w-full accent-brand-500">
+          <input id="qtyMax" type="range" min="0" max="50000" step="100" value="50000" class="w-full accent-brand-500">
+        </div>
+      </details>
+
+      <!-- 置信度 -->
+      <details class="px-4 py-3">
+        <summary class="flex items-center justify-between text-sm font-medium text-ink-700">
+          <span>置信度</span>
+          <svg class="chev text-ink-400" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </summary>
+        <div class="mt-3">
+          <input id="confSlider" type="range" min="0" max="100" value="0" class="w-full accent-brand-500">
+          <div class="text-xs text-ink-500 mt-1">仅显示 ≥ <span id="confLabel" class="text-ink-800 font-medium">0.0</span></div>
+        </div>
+      </details>
+    </aside>
+
+    <!-- ====== 右侧列表 ====== -->
+    <main>
+      <!-- active filters -->
+      <div class="flex items-center gap-2 mb-3 flex-wrap min-h-[28px]" id="activeFilters">
+        <span class="text-xs text-ink-400">筛选条件:</span>
+      </div>
+
+      <!-- toolbar -->
+      <div class="flex items-center justify-between mb-3 flex-wrap gap-2">
+        <div class="flex items-center gap-2">
+          <span class="text-sm text-ink-500">共 <span id="resultCount" class="text-ink-900 font-semibold">--</span> 条结果</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs text-ink-500">排序:</span>
+          <div class="inline-flex">
+            <button class="seg-btn active" data-sort="published_desc">最新发布</button>
+            <button class="seg-btn" data-sort="deadline_asc">截止最近</button>
+            <button class="seg-btn" data-sort="qty_desc">数量最大</button>
+            <button class="seg-btn" data-sort="confidence_desc">置信度</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- leads list -->
+      <div id="leadsList" class="space-y-3"></div>
+
+      <div id="emptyState" class="hidden bg-white rounded-xl border border-ink-100 empty-state">
+        <svg class="mx-auto mb-3 text-ink-300" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <div class="text-sm">没有匹配的商机,试试调整筛选条件?</div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- ========== 详情抽屉 ========== -->
+<div id="detailBackdrop" class="fixed inset-0 bg-ink-900/30 z-40 hidden"></div>
+<aside id="detailDrawer" class="fixed top-0 right-0 h-full w-full md:w-[640px] bg-white shadow-2xl z-50 slide-in overflow-y-auto scrollbar-thin">
+  <div id="detailContent"></div>
+</aside>
+
+<script src="./data.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
