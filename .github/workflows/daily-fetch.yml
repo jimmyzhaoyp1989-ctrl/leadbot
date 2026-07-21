@@ -1,34 +1,58 @@
 name: Daily fetch robot tender leads
 
+# 每天北京时间 8:00 (UTC 0:00) 自动跑; 也能手动触发
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       max_leads:
-        description: '每源最多抓多少条'
+        description: '每个源最多抓多少条'
         required: false
         default: '25'
+
+# 显式给 workflow 写权限 (commit/push)
+permissions:
+  contents: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Install Playwright
-        run: pip install playwright && playwright install --with-deps chromium
+          cache: pip
+
+      - name: Install Playwright + Chromium
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
       - name: Run fetch_leads.py
-        run: python3 fetch_leads.py 2>&1 | tee fetch.log
-      - name: Commit
+        env:
+          MAX_LEADS_PER_SOURCE: ${{ github.event.inputs.max_leads || '25' }}
+        run: |
+          python3 fetch_leads.py 2>&1 | tee fetch.log
+          echo "---"
+          echo "data.js size: $(wc -c < data.js) bytes"
+          echo "Lead count: $(grep -c '"id":' data.js)"
+
+      - name: Commit + Push
         if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.js fetch.log
-          git diff --staged --quiet && exit 0
-          git commit -m "auto-fetch $(date -u +%Y-%m-%d)"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: auto-fetch robot leads $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
