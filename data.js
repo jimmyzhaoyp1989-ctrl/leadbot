@@ -200,6 +200,44 @@ window.LEADS = [
     "merged_count": 1,
     "raw_content": "金山办公两款智能体亮相\n来源:中国公共采购网 http://www.cgpnews.cn/articles/75366",
     "is_real": true
+  },
+  {
+    "id": 14,
+    "lead_type": "procurement",
+    "title": "货物
+  
+                    人工智能小算力建设-结果公告
+                
+                发布日期：2026-07-21",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "货物
+  
+                    人工智能小算力建设-结果公告
+                
+                发布日期：2026-07-21",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-08-05",
+    "published_at": "2026-07-15",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中招联合",
+    "sources": [{"source_name": "中招联合", "url": "https://www.365trade.com.cn/jhwzb/847386.jhtml"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "货物
+  
+                    人工智能小算力建设-结果公告
+                
+                发布日期：2026-07-21\n来源:中招联合 https://www.365trade.com.cn/jhwzb/847386.jhtml",
+    "is_real": true
   }
 ];
 
