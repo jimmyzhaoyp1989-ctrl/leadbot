@@ -1,0 +1,60 @@
+[1/6] CCGP (主源)...
+  CCGP 机器人 p1 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&bidType=0&dbselect=bidx&kw=%E6%9C%BA%E5%99%A8%E4%BA%BA&timeType=0&displayZone=&zoneId=&pppStatus=0", waiting until "domcontentloaded"
+
+  CCGP 无人机 p1 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&bidType=0&dbselect=bidx&kw=%E6%97%A0%E4%BA%BA%E6%9C%BA&timeType=0&displayZone=&zoneId=&pppStatus=0", waiting until "domcontentloaded"
+
+  CCGP 智能体 p1 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&bidType=0&dbselect=bidx&kw=%E6%99%BA%E8%83%BD%E4%BD%93&timeType=0&displayZone=&zoneId=&pppStatus=0", waiting until "domcontentloaded"
+
+  CCGP AGV p1 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&bidType=0&dbselect=bidx&kw=AGV&timeType=0&displayZone=&zoneId=&pppStatus=0", waiting until "domcontentloaded"
+
+  CCGP 机械臂 p1 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&bidType=0&dbselect=bidx&kw=%E6%9C%BA%E6%A2%B0%E8%87%82&timeType=0&displayZone=&zoneId=&pppStatus=0", waiting until "domcontentloaded"
+
+  CCGP 巡检 p1 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=1&bidSort=0&bidType=0&dbselect=bidx&kw=%E5%B7%A1%E6%A3%80&timeType=0&displayZone=&zoneId=&pppStatus=0", waiting until "domcontentloaded"
+
+  CCGP: 0 条
+[chinabidding] 中招国际...
+  +4 条
+[robot_industry] 中国机器人网...
+  https://www.robot-china.com/news/search.php?kw=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://www.robot-china.com/news/search.php?kw=%E6%9C%BA%E5%99%A8%E4%BA%BA", waiting until "domcontentloaded"
+
+  https://www.robot-china.com/news/search.php?kw=无人机 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://www.robot-china.com/news/search.php?kw=%E6%97%A0%E4%BA%BA%E6%9C%BA", waiting until "domcontentloaded"
+
+  https://www.robot-china.com/news/search.php?kw=智能 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://www.robot-china.com/news/search.php?kw=%E6%99%BA%E8%83%BD", waiting until "domcontentloaded"
+
+  https://www.robot-china.com/news/search.php?kw=机械臂 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://www.robot-china.com/news/search.php?kw=%E6%9C%BA%E6%A2%B0%E8%87%82", waiting until "domcontentloaded"
+
+  https://www.robot-china.com/news/search.php?kw=巡检 ERR: Page.goto: Timeout 20000ms exceeded.
+Call log:
+  - navigating to "https://www.robot-china.com/news/search.php?kw=%E5%B7%A1%E6%A3%80", waiting until "domcontentloaded"
+
+  +0 条
+[cgpnews] 中国公共采购网...
+  +9 条
+[ebnew] 必联网...
+  +0 条
+[365trade] 中招联合...
+  +0 条
+
+✓ /home/runner/work/leadbot/leadbot/data.js: 5 条 lead
+    3  中国公共采购网
+    2  中招国际
