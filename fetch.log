@@ -25,6 +25,7 @@ Call log:
 
   CCGP: 0 条
 [chinabidding] 中招国际...
+  https://www.chinabidding.com/?keyword=机器人 ERR: Page.evaluate: Execution context was destroyed, most likely because of a navigation
   +4 条
 [robot_industry] 中国机器人网...
   https://www.robot-china.com/news/search.php?kw=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
@@ -53,9 +54,8 @@ Call log:
 [ebnew] 必联网...
   +0 条
 [365trade] 中招联合...
-  +2 条
+  +0 条
 
-✓ /home/runner/work/leadbot/leadbot/data.js: 6 条 lead
+✓ /home/runner/work/leadbot/leadbot/data.js: 5 条 lead
     3  中国公共采购网
     2  中招国际
-    1  中招联合
