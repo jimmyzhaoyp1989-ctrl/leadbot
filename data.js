@@ -124,7 +124,33 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 5,
+    "id": 3,
+    "lead_type": "procurement",
+    "title": "【浙能长电机械密封采购】结果公告",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "【浙能长电机械密封采购】结果公告",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-08-05",
+    "published_at": "2026-07-15",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中招国际",
+    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263217587-BidResult.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "【浙能长电机械密封采购】结果公告\n来源:中招国际 https://www.chinabidding.com/bidDetail/263217587-BidResult.html",
+    "is_real": true
+  },
+  {
+    "id": 7,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
@@ -150,7 +176,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 6,
+    "id": 8,
     "lead_type": "procurement",
     "title": "内蒙古加快招投标人工智能应用",
     "product_category": "other",
