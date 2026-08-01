@@ -100,32 +100,6 @@ window.LEADS = [
   {
     "id": 2,
     "lead_type": "procurement",
-    "title": "中国航发中传机械有限公司离子氮化设备采购评标结果公示公告(1)",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "中国航发中传机械有限公司离子氮化设备采购评标结果公示公告(1)",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-08-05",
-    "published_at": "2026-07-15",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中招国际",
-    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263221841-BidResult.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "中国航发中传机械有限公司离子氮化设备采购评标结果公示公告(1)\n来源:中招国际 https://www.chinabidding.com/bidDetail/263221841-BidResult.html",
-    "is_real": true
-  },
-  {
-    "id": 3,
-    "lead_type": "procurement",
     "title": "2025-2026年度溪洛渡水电站机械设备检修项目公告",
     "product_category": "other",
     "product_category_raw": "示例类别",
@@ -150,7 +124,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 7,
+    "id": 5,
     "lead_type": "procurement",
     "title": "上海政采监管智能体应用扩围",
     "product_category": "other",
@@ -176,7 +150,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 8,
+    "id": 6,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
@@ -202,7 +176,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 9,
+    "id": 7,
     "lead_type": "procurement",
     "title": "内蒙古加快招投标人工智能应用",
     "product_category": "other",
