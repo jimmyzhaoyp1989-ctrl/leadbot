@@ -100,32 +100,6 @@ window.LEADS = [
   {
     "id": 2,
     "lead_type": "procurement",
-    "title": "广合科技移动机器人AGV采购项目重新招标澄清或变更公告(1)",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "广合科技移动机器人AGV采购项目重新招标澄清或变更公告(1)",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-08-05",
-    "published_at": "2026-07-15",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中招国际",
-    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263235078-BidChange.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "广合科技移动机器人AGV采购项目重新招标澄清或变更公告(1)\n来源:中招国际 https://www.chinabidding.com/bidDetail/263235078-BidChange.html",
-    "is_real": true
-  },
-  {
-    "id": 3,
-    "lead_type": "procurement",
     "title": "2025-2026年度溪洛渡水电站机械设备检修项目公告",
     "product_category": "other",
     "product_category_raw": "示例类别",
@@ -150,59 +124,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 4,
-    "lead_type": "procurement",
-    "title": "随州综合仓储配送中心项目场地平整工程-机械租赁服务项目成交候选人公示",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "随州综合仓储配送中心项目场地平整工程-机械租赁服务项目成交候选人公示",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-08-05",
-    "published_at": "2026-07-15",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中招国际",
-    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263236737-BidResult.html"}],
-    "status": "won",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "随州综合仓储配送中心项目场地平整工程-机械租赁服务项目成交候选人公示\n来源:中招国际 https://www.chinabidding.com/bidDetail/263236737-BidResult.html",
-    "is_real": true
-  },
-  {
     "id": 5,
-    "lead_type": "procurement",
-    "title": "【台州临港热电有限公司机械密封采购】结果公告",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "【台州临港热电有限公司机械密封采购】结果公告",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-08-05",
-    "published_at": "2026-07-15",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中招国际",
-    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263236794-BidResult.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "【台州临港热电有限公司机械密封采购】结果公告\n来源:中招国际 https://www.chinabidding.com/bidDetail/263236794-BidResult.html",
-    "is_real": true
-  },
-  {
-    "id": 11,
     "lead_type": "procurement",
     "title": "上海政采监管智能体应用扩围",
     "product_category": "other",
@@ -228,7 +150,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 12,
+    "id": 6,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
@@ -254,7 +176,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 13,
+    "id": 7,
     "lead_type": "procurement",
     "title": "内蒙古加快招投标人工智能应用",
     "product_category": "other",
@@ -277,6 +199,44 @@ window.LEADS = [
     "status_note": "",
     "merged_count": 1,
     "raw_content": "内蒙古加快招投标人工智能应用\n来源:中国公共采购网 http://www.cgpnews.cn/articles/75409",
+    "is_real": true
+  },
+  {
+    "id": 14,
+    "lead_type": "procurement",
+    "title": "货物
+  
+                    河南财经政法大学无人机采购项目-结果公告
+                
+                发布日期：2026-08-06",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "货物
+  
+                    河南财经政法大学无人机采购项目-结果公告
+                
+                发布日期：2026-08-06",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["河南"],
+    "deadline": "2026-08-05",
+    "published_at": "2026-07-15",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中招联合",
+    "sources": [{"source_name": "中招联合", "url": "https://www.365trade.com.cn/jhwzb/854181.jhtml"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "货物
+  
+                    河南财经政法大学无人机采购项目-结果公告
+                
+                发布日期：2026-08-06\n来源:中招联合 https://www.365trade.com.cn/jhwzb/854181.jhtml",
     "is_real": true
   }
 ];
