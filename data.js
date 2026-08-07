@@ -124,33 +124,33 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 5,
+    "id": 3,
     "lead_type": "procurement",
-    "title": "上海政采监管智能体应用扩围",
+    "title": "昆明医科大学第一附属医院达芬奇手术机器人维保服务采购项目评标结果公示公告(1)",
     "product_category": "other",
     "product_category_raw": "示例类别",
     "components": ["待补充"],
     "demand_side_raw": "见公告原文",
     "demand_side_size": "medium",
-    "scale_raw": "上海政采监管智能体应用扩围",
+    "scale_raw": "昆明医科大学第一附属医院达芬奇手术机器人维保服务采购项目评标结果公示公告(1)",
     "est_qty_min": null,
     "est_qty_max": null,
     "qty_unit": "",
     "qty_period": "",
-    "regions": ["上海"],
+    "regions": ["全国"],
     "deadline": "2026-08-05",
     "published_at": "2026-07-15",
     "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国公共采购网",
-    "sources": [{"source_name": "中国公共采购网", "url": "http://www.cgpnews.cn/articles/75456"}],
+    "extract_notes": "自动抓取自 中招国际",
+    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263241227-BidResult.html"}],
     "status": "new",
     "status_note": "",
     "merged_count": 1,
-    "raw_content": "上海政采监管智能体应用扩围\n来源:中国公共采购网 http://www.cgpnews.cn/articles/75456",
+    "raw_content": "昆明医科大学第一附属医院达芬奇手术机器人维保服务采购项目评标结果公示公告(1)\n来源:中招国际 https://www.chinabidding.com/bidDetail/263241227-BidResult.html",
     "is_real": true
   },
   {
-    "id": 6,
+    "id": 7,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
@@ -176,7 +176,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 7,
+    "id": 8,
     "lead_type": "procurement",
     "title": "内蒙古加快招投标人工智能应用",
     "product_category": "other",
@@ -199,44 +199,6 @@ window.LEADS = [
     "status_note": "",
     "merged_count": 1,
     "raw_content": "内蒙古加快招投标人工智能应用\n来源:中国公共采购网 http://www.cgpnews.cn/articles/75409",
-    "is_real": true
-  },
-  {
-    "id": 14,
-    "lead_type": "procurement",
-    "title": "货物
-  
-                    河南财经政法大学无人机采购项目-结果公告
-                
-                发布日期：2026-08-06",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "货物
-  
-                    河南财经政法大学无人机采购项目-结果公告
-                
-                发布日期：2026-08-06",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["河南"],
-    "deadline": "2026-08-05",
-    "published_at": "2026-07-15",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中招联合",
-    "sources": [{"source_name": "中招联合", "url": "https://www.365trade.com.cn/jhwzb/854181.jhtml"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "货物
-  
-                    河南财经政法大学无人机采购项目-结果公告
-                
-                发布日期：2026-08-06\n来源:中招联合 https://www.365trade.com.cn/jhwzb/854181.jhtml",
     "is_real": true
   }
 ];
