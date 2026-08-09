@@ -126,32 +126,6 @@ window.LEADS = [
   {
     "id": 3,
     "lead_type": "procurement",
-    "title": "三峡绿色发展有限公司葛洲坝枢纽外围供水管网更新改造机械租赁中标结果公示",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "三峡绿色发展有限公司葛洲坝枢纽外围供水管网更新改造机械租赁中标结果公示",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-08-05",
-    "published_at": "2026-07-15",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中招国际",
-    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263248578-BidResult.html"}],
-    "status": "won",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "三峡绿色发展有限公司葛洲坝枢纽外围供水管网更新改造机械租赁中标结果公示\n来源:中招国际 https://www.chinabidding.com/bidDetail/263248578-BidResult.html",
-    "is_real": true
-  },
-  {
-    "id": 4,
-    "lead_type": "procurement",
     "title": "昆明医科大学第一附属医院达芬奇手术机器人维保服务采购项目评标结果公示公告(1)",
     "product_category": "other",
     "product_category_raw": "示例类别",
@@ -176,7 +150,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 9,
+    "id": 7,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
@@ -202,7 +176,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 10,
+    "id": 8,
     "lead_type": "procurement",
     "title": "内蒙古加快招投标人工智能应用",
     "product_category": "other",
