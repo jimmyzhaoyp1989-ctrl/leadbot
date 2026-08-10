@@ -49,12 +49,12 @@ Call log:
 
   +0 条
 [cgpnews] 中国公共采购网...
-  +6 条
-[ebnew] 必联网...
-  https://www.ebnew.com/info/list-1-1-0-0-0-0-0-0-0-0-0.html?keyword=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
+  http://www.cgpnews.cn/?keyword=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
 Call log:
-  - navigating to "https://www.ebnew.com/info/list-1-1-0-0-0-0-0-0-0-0-0.html?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA", waiting until "domcontentloaded"
+  - navigating to "http://www.cgpnews.cn/?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA", waiting until "domcontentloaded"
 
+  +4 条
+[ebnew] 必联网...
   +0 条
 [365trade] 中招联合...
   +0 条
