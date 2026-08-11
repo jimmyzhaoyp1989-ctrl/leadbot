@@ -25,7 +25,7 @@ Call log:
 
   CCGP: 0 条
 [chinabidding] 中招国际...
-  +6 条
+  +8 条
 [robot_industry] 中国机器人网...
   https://www.robot-china.com/news/search.php?kw=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
 Call log:
@@ -49,16 +49,12 @@ Call log:
 
   +0 条
 [cgpnews] 中国公共采购网...
-  http://www.cgpnews.cn/?keyword=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to "http://www.cgpnews.cn/?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA", waiting until "domcontentloaded"
-
-  +4 条
+  +6 条
 [ebnew] 必联网...
   +0 条
 [365trade] 中招联合...
   +0 条
 
-✓ /home/runner/work/leadbot/leadbot/data.js: 5 条 lead
-    3  中招国际
+✓ /home/runner/work/leadbot/leadbot/data.js: 6 条 lead
+    4  中招国际
     2  中国公共采购网
