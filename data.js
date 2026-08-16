@@ -124,33 +124,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 3,
-    "lead_type": "procurement",
-    "title": "云南烟草机械有限责任公司2026年度二维测高仪采购项目中标候选人公示",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "云南烟草机械有限责任公司2026年度二维测高仪采购项目中标候选人公示",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["云南"],
-    "deadline": "2026-08-05",
-    "published_at": "2026-07-15",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中招国际",
-    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263270140-BidResult.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "云南烟草机械有限责任公司2026年度二维测高仪采购项目中标候选人公示\n来源:中招国际 https://www.chinabidding.com/bidDetail/263270140-BidResult.html",
-    "is_real": true
-  },
-  {
-    "id": 7,
+    "id": 5,
     "lead_type": "procurement",
     "title": "公园迎来机器人“新员工”",
     "product_category": "other",
@@ -176,7 +150,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 8,
+    "id": 6,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
