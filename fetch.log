@@ -25,7 +25,7 @@ Call log:
 
   CCGP: 0 条
 [chinabidding] 中招国际...
-  +4 条
+  +6 条
 [robot_industry] 中国机器人网...
   https://www.robot-china.com/news/search.php?kw=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
 Call log:
@@ -53,20 +53,8 @@ Call log:
 [ebnew] 必联网...
   +0 条
 [365trade] 中招联合...
-  https://www.365trade.com.cn/jhwzb/?keyword=机器人 ERR: Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to "https://www.365trade.com.cn/jhwzb/?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA", waiting until "domcontentloaded"
-
-  https://www.365trade.com.cn/jhwzb/?keyword=无人机 ERR: Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to "https://www.365trade.com.cn/jhwzb/?keyword=%E6%97%A0%E4%BA%BA%E6%9C%BA", waiting until "domcontentloaded"
-
-  https://www.365trade.com.cn/jhwzb/?keyword=智能 ERR: Page.goto: Timeout 20000ms exceeded.
-Call log:
-  - navigating to "https://www.365trade.com.cn/jhwzb/?keyword=%E6%99%BA%E8%83%BD", waiting until "domcontentloaded"
-
   +0 条
 
-✓ /home/runner/work/leadbot/leadbot/data.js: 4 条 lead
-    2  中招国际
+✓ /home/runner/work/leadbot/leadbot/data.js: 5 条 lead
+    3  中招国际
     2  中国公共采购网
