@@ -150,7 +150,33 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 7,
+    "id": 4,
+    "lead_type": "procurement",
+    "title": "吉林大华机械制造有限公司公路汽车配送运输服务项目变更公告【公路汽车配送运输服务/C1100000096018656001001】",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "吉林大华机械制造有限公司公路汽车配送运输服务项目变更公告【公路汽车配送运输服务/C1100000096018656001001】",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["吉林"],
+    "deadline": "2026-08-05",
+    "published_at": "2026-07-15",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中招国际",
+    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263291113-BidChange.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "吉林大华机械制造有限公司公路汽车配送运输服务项目变更公告【公路汽车配送运输服务/C1100000096018656001001】\n来源:中招国际 https://www.chinabidding.com/bidDetail/263291113-BidChange.html",
+    "is_real": true
+  },
+  {
+    "id": 9,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
@@ -176,7 +202,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 8,
+    "id": 10,
     "lead_type": "procurement",
     "title": "成都出台促进人工智能产业发展办法",
     "product_category": "other",
