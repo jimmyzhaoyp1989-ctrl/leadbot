@@ -100,6 +100,32 @@ window.LEADS = [
   {
     "id": 2,
     "lead_type": "procurement",
+    "title": "洁净机械手评标结果公示公告(1)",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "洁净机械手评标结果公示公告(1)",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-08-05",
+    "published_at": "2026-07-15",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中招国际",
+    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263341319-BidResult.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "洁净机械手评标结果公示公告(1)\n来源:中招国际 https://www.chinabidding.com/bidDetail/263341319-BidResult.html",
+    "is_real": true
+  },
+  {
+    "id": 3,
+    "lead_type": "procurement",
     "title": "2025-2026年度溪洛渡水电站机械设备检修项目公告",
     "product_category": "other",
     "product_category_raw": "示例类别",
@@ -124,7 +150,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 5,
+    "id": 7,
     "lead_type": "procurement",
     "title": "上半年机械工业规上企业增加值同比增长9% 经济效益回稳向好",
     "product_category": "other",
@@ -150,7 +176,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 6,
+    "id": 8,
     "lead_type": "procurement",
     "title": "人工智能应用服务商培育专项行动启动",
     "product_category": "other",
