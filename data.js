@@ -126,13 +126,13 @@ window.LEADS = [
   {
     "id": 5,
     "lead_type": "procurement",
-    "title": "◎ 工业和信息化部部署开展人工智能应用服务商培育专项...",
+    "title": "◎ 工业和信息化部部署开展人工智能应用服务商培育专项行动",
     "product_category": "other",
     "product_category_raw": "示例类别",
     "components": ["待补充"],
     "demand_side_raw": "见公告原文",
     "demand_side_size": "medium",
-    "scale_raw": "◎ 工业和信息化部部署开展人工智能应用服务商培育专项...",
+    "scale_raw": "◎ 工业和信息化部部署开展人工智能应用服务商培育专项行动",
     "est_qty_min": null,
     "est_qty_max": null,
     "qty_unit": "",
@@ -146,7 +146,7 @@ window.LEADS = [
     "status": "new",
     "status_note": "",
     "merged_count": 1,
-    "raw_content": "◎ 工业和信息化部部署开展人工智能应用服务商培育专项...\n来源:中国公共采购网 http://www.cgpnews.cn/articles/75903",
+    "raw_content": "◎ 工业和信息化部部署开展人工智能应用服务商培育专项行动\n来源:中国公共采购网 http://www.cgpnews.cn/articles/75903",
     "is_real": true
   },
   {
