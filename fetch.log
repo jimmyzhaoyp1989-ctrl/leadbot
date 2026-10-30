@@ -25,9 +25,9 @@ Call log:
 
   CCGP: 0 条
 [chinabidding] 中招国际...
-  +4 条
+  +6 条
 [robot_industry] 中国机器人网...
-  +149 条
+  +145 条
 [cgpnews] 中国公共采购网...
   +0 条
 [ebnew] 必联网...
@@ -35,6 +35,6 @@ Call log:
 [365trade] 中招联合...
   +0 条
 
-✓ /home/runner/work/leadbot/leadbot/data.js: 126 条 lead
+✓ /home/runner/work/leadbot/leadbot/data.js: 127 条 lead
   124  中国机器人网
-    2  中招国际
+    3  中招国际
