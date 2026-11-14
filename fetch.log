@@ -1,7 +1,7 @@
 [1/6] CCGP (主源)...
   CCGP: 0 条
 [chinabidding] 中招国际...
-  +4 条
+  +8 条
 [robot_industry] 中国机器人网...
   +148 条
 [cgpnews] 中国公共采购网...
@@ -11,6 +11,6 @@
 [365trade] 中招联合...
   +0 条
 
-✓ /home/runner/work/leadbot/leadbot/data.js: 125 条 lead
+✓ /home/runner/work/leadbot/leadbot/data.js: 127 条 lead
   123  中国机器人网
-    2  中招国际
+    4  中招国际
