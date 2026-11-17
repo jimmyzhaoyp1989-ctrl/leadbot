@@ -1,11 +1,11 @@
 [1/6] CCGP (主源)...
   CCGP: 0 条
 [chinabidding] 中招国际...
-  +12 条
+  +4 条
 [robot_industry] 中国机器人网...
-  +153 条
+  +158 条
 [cgpnews] 中国公共采购网...
-  +0 条
+  +9 条
 [ebnew] 必联网...
   +0 条
 [365trade] 中招联合...
@@ -13,7 +13,7 @@
 Call log:
   - navigating to "https://www.365trade.com.cn/jhwzb/?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA", waiting until "domcontentloaded"
 
-  https://www.365trade.com.cn/jhwzb/?keyword=无人机 ERR: Page.goto: net::ERR_TIMED_OUT at https://www.365trade.com.cn/jhwzb/?keyword=%E6%97%A0%E4%BA%BA%E6%9C%BA
+  https://www.365trade.com.cn/jhwzb/?keyword=无人机 ERR: Page.goto: Timeout 20000ms exceeded.
 Call log:
   - navigating to "https://www.365trade.com.cn/jhwzb/?keyword=%E6%97%A0%E4%BA%BA%E6%9C%BA", waiting until "domcontentloaded"
 
@@ -24,5 +24,6 @@ Call log:
   +0 条
 
 ✓ /home/runner/work/leadbot/leadbot/data.js: 130 条 lead
-  124  中国机器人网
-    6  中招国际
+  125  中国机器人网
+    3  中国公共采购网
+    2  中招国际
