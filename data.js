@@ -100,6 +100,32 @@ window.LEADS = [
   {
     "id": 2,
     "lead_type": "procurement",
+    "title": "中国科学院上海光学精密机械研究所高精度转台评标结果公示公告(1)",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "中国科学院上海光学精密机械研究所高精度转台评标结果公示公告(1)",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["上海"],
+    "deadline": "2026-08-05",
+    "published_at": "2026-07-15",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中招国际",
+    "sources": [{"source_name": "中招国际", "url": "https://www.chinabidding.com/bidDetail/263549735-BidResult.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "中国科学院上海光学精密机械研究所高精度转台评标结果公示公告(1)\n来源:中招国际 https://www.chinabidding.com/bidDetail/263549735-BidResult.html",
+    "is_real": true
+  },
+  {
+    "id": 3,
+    "lead_type": "procurement",
     "title": "2025-2026年度溪洛渡水电站机械设备检修项目公告",
     "product_category": "other",
     "product_category_raw": "示例类别",
@@ -124,7 +150,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 5,
+    "id": 7,
     "lead_type": "procurement",
     "title": "机器人_资讯搜索_中国机器人网",
     "product_category": "other",
@@ -150,7 +176,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 6,
+    "id": 8,
     "lead_type": "procurement",
     "title": "机器人产业联盟",
     "product_category": "other",
@@ -176,7 +202,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 7,
+    "id": 9,
     "lead_type": "procurement",
     "title": "工业机器人",
     "product_category": "other",
@@ -202,7 +228,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 8,
+    "id": 10,
     "lead_type": "procurement",
     "title": "机器人展览",
     "product_category": "other",
@@ -228,7 +254,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 9,
+    "id": 11,
     "lead_type": "procurement",
     "title": "人形机器人",
     "product_category": "other",
@@ -254,7 +280,189 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 10,
+    "id": 12,
+    "lead_type": "procurement",
+    "title": "理想汽车机器人业务优先工厂场景 暂不急于面向C端",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "理想汽车机器人业务优先工厂场景 暂不急于面向C端",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-12-17",
+    "published_at": "2026-11-26",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中国机器人网",
+    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/26/97562.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "理想汽车机器人业务优先工厂场景 暂不急于面向C端\n来源:中国机器人网 https://www.robot-china.com/news/202611/26/97562.html",
+    "is_real": true
+  },
+  {
+    "id": 13,
+    "lead_type": "procurement",
+    "title": "1980名“小创客”同台竞技！榆林这场AI机器人竞赛创历届之最",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "1980名“小创客”同台竞技！榆林这场AI机器人竞赛创历届之最",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-12-17",
+    "published_at": "2026-11-26",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中国机器人网",
+    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/26/97561.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "1980名“小创客”同台竞技！榆林这场AI机器人竞赛创历届之最\n来源:中国机器人网 https://www.robot-china.com/news/202611/26/97561.html",
+    "is_real": true
+  },
+  {
+    "id": 14,
+    "lead_type": "procurement",
+    "title": "从谐波到行星、摆线：捷昌驱动构建机器人旋转模组多路线技术矩阵",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "从谐波到行星、摆线：捷昌驱动构建机器人旋转模组多路线技术矩阵",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-12-17",
+    "published_at": "2026-11-26",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中国机器人网",
+    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/26/97560.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "从谐波到行星、摆线：捷昌驱动构建机器人旋转模组多路线技术矩阵\n来源:中国机器人网 https://www.robot-china.com/news/202611/26/97560.html",
+    "is_real": true
+  },
+  {
+    "id": 15,
+    "lead_type": "procurement",
+    "title": "百万人才缺口 人形机器人用工荒",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "百万人才缺口 人形机器人用工荒",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-12-17",
+    "published_at": "2026-11-26",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中国机器人网",
+    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/26/97559.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "百万人才缺口 人形机器人用工荒\n来源:中国机器人网 https://www.robot-china.com/news/202611/26/97559.html",
+    "is_real": true
+  },
+  {
+    "id": 16,
+    "lead_type": "procurement",
+    "title": "机器人赛道加速分化, 两年来已有近30家公司倒下",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "机器人赛道加速分化, 两年来已有近30家公司倒下",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-12-17",
+    "published_at": "2026-11-26",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中国机器人网",
+    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/26/97558.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "机器人赛道加速分化, 两年来已有近30家公司倒下\n来源:中国机器人网 https://www.robot-china.com/news/202611/26/97558.html",
+    "is_real": true
+  },
+  {
+    "id": 17,
+    "lead_type": "procurement",
+    "title": "随叫随到的AI网球机器人搭子，获超亿元融资!",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "随叫随到的AI网球机器人搭子，获超亿元融资!",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-12-17",
+    "published_at": "2026-11-26",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中国机器人网",
+    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/26/97557.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "随叫随到的AI网球机器人搭子，获超亿元融资!\n来源:中国机器人网 https://www.robot-china.com/news/202611/26/97557.html",
+    "is_real": true
+  },
+  {
+    "id": 18,
+    "lead_type": "procurement",
+    "title": "何小鹏：做机器人比做汽车难20倍，2029年后高阶通用机器人将更大范围地走入人类生活",
+    "product_category": "other",
+    "product_category_raw": "示例类别",
+    "components": ["待补充"],
+    "demand_side_raw": "见公告原文",
+    "demand_side_size": "medium",
+    "scale_raw": "何小鹏：做机器人比做汽车难20倍，2029年后高阶通用机器人将更大范围地走入人类生活",
+    "est_qty_min": null,
+    "est_qty_max": null,
+    "qty_unit": "",
+    "qty_period": "",
+    "regions": ["全国"],
+    "deadline": "2026-12-17",
+    "published_at": "2026-11-26",
+    "confidence": 0.7,
+    "extract_notes": "自动抓取自 中国机器人网",
+    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/26/97556.html"}],
+    "status": "new",
+    "status_note": "",
+    "merged_count": 1,
+    "raw_content": "何小鹏：做机器人比做汽车难20倍，2029年后高阶通用机器人将更大范围地走入人类生活\n来源:中国机器人网 https://www.robot-china.com/news/202611/26/97556.html",
+    "is_real": true
+  },
+  {
+    "id": 19,
     "lead_type": "procurement",
     "title": "十国开发者齐聚自贡高新区！优必选海外人形机器人实训营收官",
     "product_category": "other",
@@ -280,15 +488,15 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 11,
+    "id": 20,
     "lead_type": "procurement",
-    "title": "机器人从 “会动” 到 “会干活、会进化”，开普勒具身智能模型「星轨」Kepler-IRSI-5.0 发布",
+    "title": "机器人从 “会动” 到 “会干活、会进化”",
     "product_category": "other",
     "product_category_raw": "示例类别",
     "components": ["待补充"],
     "demand_side_raw": "见公告原文",
     "demand_side_size": "medium",
-    "scale_raw": "机器人从 “会动” 到 “会干活、会进化”，开普勒具身智能模型「星轨」Kepler-IRSI-5.0 发布",
+    "scale_raw": "机器人从 “会动” 到 “会干活、会进化”",
     "est_qty_min": null,
     "est_qty_max": null,
     "qty_unit": "",
@@ -302,11 +510,11 @@ window.LEADS = [
     "status": "new",
     "status_note": "",
     "merged_count": 1,
-    "raw_content": "机器人从 “会动” 到 “会干活、会进化”，开普勒具身智能模型「星轨」Kepler-IRSI-5.0 发布\n来源:中国机器人网 https://www.robot-china.com/news/202611/25/97553.html",
+    "raw_content": "机器人从 “会动” 到 “会干活、会进化”\n来源:中国机器人网 https://www.robot-china.com/news/202611/25/97553.html",
     "is_real": true
   },
   {
-    "id": 12,
+    "id": 21,
     "lead_type": "procurement",
     "title": "芯动源机器人落地长三角，智能物流标杆项目助力离散制造升级",
     "product_category": "other",
@@ -332,7 +540,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 13,
+    "id": 22,
     "lead_type": "procurement",
     "title": "《2026年前三季度全球机器人3D激光雷达销量排行榜》发布：",
     "product_category": "other",
@@ -358,7 +566,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 14,
+    "id": 23,
     "lead_type": "procurement",
     "title": "小鹏放出 IRON 人形机器人预热视频: 可自主拿起书本、倒酒、充电",
     "product_category": "other",
@@ -384,7 +592,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 15,
+    "id": 24,
     "lead_type": "procurement",
     "title": "国内AI机器人公司排名：出货量分化之后，真正的分水岭是什么？",
     "product_category": "other",
@@ -410,7 +618,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 16,
+    "id": 25,
     "lead_type": "procurement",
     "title": "机器人项目推荐品牌：推荐的不是“品牌”，是“匹配度”",
     "product_category": "other",
@@ -436,7 +644,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 17,
+    "id": 26,
     "lead_type": "procurement",
     "title": "跨界首次！夏澜R03仿生机器人披上云锦华服，化身南京云锦博物馆新馆特邀文化体验官",
     "product_category": "other",
@@ -462,7 +670,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 18,
+    "id": 27,
     "lead_type": "procurement",
     "title": "热血机甲燃动金陵！URKL人形机器人自由格斗联赛南京站圆满落幕",
     "product_category": "other",
@@ -488,7 +696,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 19,
+    "id": 28,
     "lead_type": "procurement",
     "title": "丰坦机器人李自可受聘专委会委员｜中国建设教育协会智能产业发展促进专业委员会成立",
     "product_category": "other",
@@ -514,7 +722,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 20,
+    "id": 29,
     "lead_type": "procurement",
     "title": "开放原子人形机器人开源社区工作委员会正式成立",
     "product_category": "other",
@@ -540,7 +748,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 21,
+    "id": 30,
     "lead_type": "procurement",
     "title": "具身智能加速落地 国内可量产机器人视觉感知模组的厂商有哪些？",
     "product_category": "other",
@@ -566,7 +774,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 22,
+    "id": 31,
     "lead_type": "procurement",
     "title": "向新而行，聚势共赢！多可机器人泰国分公司正式启用，加速东南亚本地化落地",
     "product_category": "other",
@@ -592,7 +800,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 23,
+    "id": 32,
     "lead_type": "procurement",
     "title": "灵颜科技定档11月25日揭晓仿生机器人，主动式交互物理AI走出屏幕",
     "product_category": "other",
@@ -618,7 +826,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 24,
+    "id": 33,
     "lead_type": "procurement",
     "title": "中国机器人出海的另一条产业链：菲律宾遥操作与专业技术支持外包迎来新机遇",
     "product_category": "other",
@@ -644,7 +852,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 25,
+    "id": 34,
     "lead_type": "procurement",
     "title": "董明珠APEC现场求合作，称格力研发机器人十几年了",
     "product_category": "other",
@@ -670,7 +878,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 26,
+    "id": 35,
     "lead_type": "procurement",
     "title": "波士顿动力人形机器人首次进入半导体制造领域，Atlas明年在格罗方德工厂测试",
     "product_category": "other",
@@ -696,7 +904,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 27,
+    "id": 36,
     "lead_type": "procurement",
     "title": "特斯拉人形机器人Optimus最新动态！12-18个月有望搞定家务",
     "product_category": "other",
@@ -722,7 +930,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 28,
+    "id": 37,
     "lead_type": "procurement",
     "title": "机器人长出“空间触觉”，感知不再止于接触",
     "product_category": "other",
@@ -748,7 +956,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 29,
+    "id": 38,
     "lead_type": "procurement",
     "title": "从工业制造到太空任务：灵掌机器人展示灵巧操作落地新进展",
     "product_category": "other",
@@ -774,7 +982,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 30,
+    "id": 39,
     "lead_type": "procurement",
     "title": "重磅迭代！阿童木全新太空机器人，从一次在轨验证，走向多元太空任务",
     "product_category": "other",
@@ -800,215 +1008,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 31,
-    "lead_type": "procurement",
-    "title": "2027年深圳国际人形机器人产业展会（8月）",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "2027年深圳国际人形机器人产业展会（8月）",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["深圳"],
-    "deadline": "2026-12-11",
-    "published_at": "2026-11-20",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/20/97506.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "2027年深圳国际人形机器人产业展会（8月）\n来源:中国机器人网 https://www.robot-china.com/news/202611/20/97506.html",
-    "is_real": true
-  },
-  {
-    "id": 32,
-    "lead_type": "procurement",
-    "title": "鱼亮科技发布多模态交互套件，破解机器人高噪场景语音交互难题",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "鱼亮科技发布多模态交互套件，破解机器人高噪场景语音交互难题",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-12-10",
-    "published_at": "2026-11-19",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/19/97503.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "鱼亮科技发布多模态交互套件，破解机器人高噪场景语音交互难题\n来源:中国机器人网 https://www.robot-china.com/news/202611/19/97503.html",
-    "is_real": true
-  },
-  {
-    "id": 33,
-    "lead_type": "procurement",
-    "title": "工业和信息化部发布5项人形机器人领域行业标准",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "工业和信息化部发布5项人形机器人领域行业标准",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-12-10",
-    "published_at": "2026-11-19",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/19/97499.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "工业和信息化部发布5项人形机器人领域行业标准\n来源:中国机器人网 https://www.robot-china.com/news/202611/19/97499.html",
-    "is_real": true
-  },
-  {
-    "id": 34,
-    "lead_type": "procurement",
-    "title": "飞阔科技携手擎天曜，温州具身智能机器人8S中心盛大启幕！",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "飞阔科技携手擎天曜，温州具身智能机器人8S中心盛大启幕！",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-12-10",
-    "published_at": "2026-11-19",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/19/97496.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "飞阔科技携手擎天曜，温州具身智能机器人8S中心盛大启幕！\n来源:中国机器人网 https://www.robot-china.com/news/202611/19/97496.html",
-    "is_real": true
-  },
-  {
-    "id": 35,
-    "lead_type": "procurement",
-    "title": "首钢基金旗下北京机器人租赁公司首批校企共建机器人教育基地挂牌",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "首钢基金旗下北京机器人租赁公司首批校企共建机器人教育基地挂牌",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["北京"],
-    "deadline": "2026-12-10",
-    "published_at": "2026-11-19",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/19/97493.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "首钢基金旗下北京机器人租赁公司首批校企共建机器人教育基地挂牌\n来源:中国机器人网 https://www.robot-china.com/news/202611/19/97493.html",
-    "is_real": true
-  },
-  {
-    "id": 36,
-    "lead_type": "procurement",
-    "title": "柯力传感战略投资知行机器人，打通“感知—控制—执行”链路",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "柯力传感战略投资知行机器人，打通“感知—控制—执行”链路",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-12-10",
-    "published_at": "2026-11-19",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/19/97492.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "柯力传感战略投资知行机器人，打通“感知—控制—执行”链路\n来源:中国机器人网 https://www.robot-china.com/news/202611/19/97492.html",
-    "is_real": true
-  },
-  {
-    "id": 37,
-    "lead_type": "procurement",
-    "title": "马斯克要让机器人去挖矿冶炼!特斯拉Optimus即将展示真本事",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "马斯克要让机器人去挖矿冶炼!特斯拉Optimus即将展示真本事",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["全国"],
-    "deadline": "2026-12-10",
-    "published_at": "2026-11-19",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/19/97491.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "马斯克要让机器人去挖矿冶炼!特斯拉Optimus即将展示真本事\n来源:中国机器人网 https://www.robot-china.com/news/202611/19/97491.html",
-    "is_real": true
-  },
-  {
-    "id": 38,
-    "lead_type": "procurement",
-    "title": "“这是我想象中2100年的样子！”深圳APEC机器人刷屏海外社交平台",
-    "product_category": "other",
-    "product_category_raw": "示例类别",
-    "components": ["待补充"],
-    "demand_side_raw": "见公告原文",
-    "demand_side_size": "medium",
-    "scale_raw": "“这是我想象中2100年的样子！”深圳APEC机器人刷屏海外社交平台",
-    "est_qty_min": null,
-    "est_qty_max": null,
-    "qty_unit": "",
-    "qty_period": "",
-    "regions": ["深圳"],
-    "deadline": "2026-12-10",
-    "published_at": "2026-11-19",
-    "confidence": 0.7,
-    "extract_notes": "自动抓取自 中国机器人网",
-    "sources": [{"source_name": "中国机器人网", "url": "https://www.robot-china.com/news/202611/19/97490.html"}],
-    "status": "new",
-    "status_note": "",
-    "merged_count": 1,
-    "raw_content": "“这是我想象中2100年的样子！”深圳APEC机器人刷屏海外社交平台\n来源:中国机器人网 https://www.robot-china.com/news/202611/19/97490.html",
-    "is_real": true
-  },
-  {
-    "id": 39,
+    "id": 40,
     "lead_type": "procurement",
     "title": "码垛机器人",
     "product_category": "other",
@@ -1034,7 +1034,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 40,
+    "id": 41,
     "lead_type": "procurement",
     "title": "机器人技术",
     "product_category": "other",
@@ -1060,7 +1060,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 41,
+    "id": 42,
     "lead_type": "procurement",
     "title": "ABB机器人",
     "product_category": "other",
@@ -1086,7 +1086,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 42,
+    "id": 43,
     "lead_type": "procurement",
     "title": "发那科机器人",
     "product_category": "other",
@@ -1112,7 +1112,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 43,
+    "id": 44,
     "lead_type": "procurement",
     "title": "服务机器人",
     "product_category": "other",
@@ -1138,7 +1138,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 44,
+    "id": 45,
     "lead_type": "procurement",
     "title": "人形机器人",
     "product_category": "other",
@@ -1164,7 +1164,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 45,
+    "id": 46,
     "lead_type": "procurement",
     "title": "机器人控制器",
     "product_category": "other",
@@ -1190,7 +1190,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 46,
+    "id": 47,
     "lead_type": "procurement",
     "title": "人形机器人生态大会",
     "product_category": "other",
@@ -1216,7 +1216,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 47,
+    "id": 48,
     "lead_type": "procurement",
     "title": "无人机_资讯搜索_中国机器人网",
     "product_category": "other",
@@ -1242,7 +1242,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 52,
+    "id": 53,
     "lead_type": "procurement",
     "title": "Nomadic无人机停高压电线上就能充电，每架可负责监测25公里电网线路",
     "product_category": "other",
@@ -1268,7 +1268,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 53,
+    "id": 54,
     "lead_type": "procurement",
     "title": "具身智能加速落地 | 深谋空中带臂作业无人机「龙爪」中标国网电力",
     "product_category": "other",
@@ -1294,7 +1294,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 54,
+    "id": 55,
     "lead_type": "procurement",
     "title": "无人机吊运靠谱吗：卓翼ZMD200林场到山地水域等复杂地形的案例",
     "product_category": "other",
@@ -1320,7 +1320,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 55,
+    "id": 56,
     "lead_type": "procurement",
     "title": "亚马逊无人机送货频出“落水”乌龙：包裹接连被投掷进泳池与池塘",
     "product_category": "other",
@@ -1346,7 +1346,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 56,
+    "id": 57,
     "lead_type": "procurement",
     "title": "科技向善，云端驰援——羚控无人机硬核装备奔赴商洛、安康抗洪抢险一线",
     "product_category": "other",
@@ -1372,7 +1372,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 57,
+    "id": 58,
     "lead_type": "procurement",
     "title": "高达100%，美国将对进口无人机及零部件征收关税",
     "product_category": "other",
@@ -1398,7 +1398,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 58,
+    "id": 59,
     "lead_type": "procurement",
     "title": "多孔气动探针测速系统提升无人机抗风能力",
     "product_category": "other",
@@ -1424,7 +1424,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 59,
+    "id": 60,
     "lead_type": "procurement",
     "title": "中国科研团队研发新型接收器，实现无人机激光无线空中充电",
     "product_category": "other",
@@ -1450,7 +1450,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 60,
+    "id": 61,
     "lead_type": "procurement",
     "title": "无人机牧渔，“活鲜”更鲜活",
     "product_category": "other",
@@ -1476,7 +1476,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 61,
+    "id": 62,
     "lead_type": "procurement",
     "title": "新突破！我军无人机实现海陆空三军数据交联",
     "product_category": "other",
@@ -1502,7 +1502,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 62,
+    "id": 63,
     "lead_type": "procurement",
     "title": "我国蜂群无人机首次实现台风过境全程立体观测",
     "product_category": "other",
@@ -1528,7 +1528,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 63,
+    "id": 64,
     "lead_type": "procurement",
     "title": "美国三州将试点校园无人机防御系统，最快15秒响应枪击",
     "product_category": "other",
@@ -1554,7 +1554,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 64,
+    "id": 65,
     "lead_type": "procurement",
     "title": "日本拟大量部署可远程攻击无人机，航程超1000公里，其中自爆型机体被视为主要选项",
     "product_category": "other",
@@ -1580,7 +1580,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 65,
+    "id": 66,
     "lead_type": "procurement",
     "title": "最快7分钟飞越山区，京东开通国内规模最大无人机进村配送网络",
     "product_category": "other",
@@ -1606,7 +1606,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 66,
+    "id": 67,
     "lead_type": "procurement",
     "title": "从消费级到工业级全链路覆盖 爱普生阶梯化IMU解决方案亮相深圳无人机展",
     "product_category": "other",
@@ -1632,7 +1632,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 67,
+    "id": 68,
     "lead_type": "procurement",
     "title": "苹果提交无人机集群网络优化专利，解决机群通信拥堵难题",
     "product_category": "other",
@@ -1658,7 +1658,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 68,
+    "id": 69,
     "lead_type": "procurement",
     "title": "河南飞播造林，全面进入“无人机”时代",
     "product_category": "other",
@@ -1684,7 +1684,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 69,
+    "id": 70,
     "lead_type": "procurement",
     "title": "无人机、飞行汽车都能测！探访“新检测”试验室",
     "product_category": "other",
@@ -1710,7 +1710,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 70,
+    "id": 71,
     "lead_type": "procurement",
     "title": "无人机考证怎么报名？找能飞航空专业考证培训基地",
     "product_category": "other",
@@ -1736,7 +1736,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 71,
+    "id": 72,
     "lead_type": "procurement",
     "title": "国产自研600公斤推力级涡扇发动机首飞成功，将用于无人机等产品",
     "product_category": "other",
@@ -1762,7 +1762,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 72,
+    "id": 73,
     "lead_type": "procurement",
     "title": "方寸知微无人机自适应绝缘子检测装置，开启低空具身智能时代",
     "product_category": "other",
@@ -1788,7 +1788,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 73,
+    "id": 74,
     "lead_type": "procurement",
     "title": "突破关键技术！国产“氢能心脏”问世，无人机续航提升超2倍",
     "product_category": "other",
@@ -1814,7 +1814,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 74,
+    "id": 75,
     "lead_type": "procurement",
     "title": "美国海军在布什号航母上测试LOCUST激光武器，对无人机目标击落率100%",
     "product_category": "other",
@@ -1840,7 +1840,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 75,
+    "id": 76,
     "lead_type": "procurement",
     "title": "清华大学研发出全新锂硫电池：能量密度549Wh/kg，无人机续航有望大提升",
     "product_category": "other",
@@ -1866,7 +1866,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 76,
+    "id": 77,
     "lead_type": "procurement",
     "title": "美国海军在布什号航母上测试LOCUST激光武器，对无人机目标击落率100%",
     "product_category": "other",
@@ -1892,7 +1892,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 77,
+    "id": 78,
     "lead_type": "procurement",
     "title": "美军测试“BRAKER”无人机掩体破袭弹，两周即完成从概念到实弹的转变",
     "product_category": "other",
@@ -1918,7 +1918,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 78,
+    "id": 79,
     "lead_type": "procurement",
     "title": "日本开发纸板军用无人机，5分钟即可组装，造价3000美元",
     "product_category": "other",
@@ -1944,7 +1944,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 79,
+    "id": 80,
     "lead_type": "procurement",
     "title": "美军测试新型Drone Round弹药，北约步枪一键变“反无人机霰弹枪”",
     "product_category": "other",
@@ -1970,7 +1970,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 80,
+    "id": 81,
     "lead_type": "procurement",
     "title": "空客“鸷鸟”喷气式拦截无人机完成首次实弹拦截",
     "product_category": "other",
@@ -1996,7 +1996,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 81,
+    "id": 82,
     "lead_type": "procurement",
     "title": "无人机发展",
     "product_category": "other",
@@ -2022,7 +2022,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 82,
+    "id": 83,
     "lead_type": "procurement",
     "title": "小型无人机",
     "product_category": "other",
@@ -2048,7 +2048,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 83,
+    "id": 84,
     "lead_type": "procurement",
     "title": "无人机公司",
     "product_category": "other",
@@ -2074,7 +2074,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 84,
+    "id": 85,
     "lead_type": "procurement",
     "title": "固定翼无人机",
     "product_category": "other",
@@ -2100,7 +2100,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 85,
+    "id": 86,
     "lead_type": "procurement",
     "title": "农药喷洒无人机售价",
     "product_category": "other",
@@ -2126,7 +2126,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 86,
+    "id": 87,
     "lead_type": "procurement",
     "title": "无人机发展趋势",
     "product_category": "other",
@@ -2152,7 +2152,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 87,
+    "id": 88,
     "lead_type": "procurement",
     "title": "中国无人机市场",
     "product_category": "other",
@@ -2178,7 +2178,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 88,
+    "id": 89,
     "lead_type": "procurement",
     "title": "无人机故障",
     "product_category": "other",
@@ -2204,7 +2204,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 89,
+    "id": 90,
     "lead_type": "procurement",
     "title": "无人机与机器视觉",
     "product_category": "other",
@@ -2230,7 +2230,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 90,
+    "id": 91,
     "lead_type": "procurement",
     "title": "四旋翼无人机",
     "product_category": "other",
@@ -2256,7 +2256,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 92,
+    "id": 93,
     "lead_type": "procurement",
     "title": "资讯搜索_中国机器人网",
     "product_category": "other",
@@ -2282,7 +2282,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 98,
+    "id": 99,
     "lead_type": "procurement",
     "title": "机械臂_资讯搜索_中国机器人网",
     "product_category": "other",
@@ -2308,7 +2308,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 103,
+    "id": 104,
     "lead_type": "procurement",
     "title": "睿尔曼智能发布GEN62万元级六轴机械臂，让更多团队用上“真干活”机械臂",
     "product_category": "other",
@@ -2334,7 +2334,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 104,
+    "id": 105,
     "lead_type": "procurement",
     "title": "睿尔曼智能发布ECO62超紧凑嵌入式六轴机械臂，行业首创“Arm in Machine”智慧新装备",
     "product_category": "other",
@@ -2360,7 +2360,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 105,
+    "id": 106,
     "lead_type": "procurement",
     "title": "编织机器人电子皮肤成为可能",
     "product_category": "other",
@@ -2386,7 +2386,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 106,
+    "id": 107,
     "lead_type": "procurement",
     "title": "按摩机械臂机器人怎么选？商用理疗 vs 家用按摩椅，一次讲清（附品牌实测）",
     "product_category": "other",
@@ -2412,7 +2412,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 107,
+    "id": 108,
     "lead_type": "procurement",
     "title": "中国国际经济技术合作促进会启动《协作机器人模块化机械臂 通用接口要求》团体标准制定",
     "product_category": "other",
@@ -2438,7 +2438,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 108,
+    "id": 109,
     "lead_type": "procurement",
     "title": "仿章鱼“思考”的软体机械臂亮相，有望自主勘探深海海底",
     "product_category": "other",
@@ -2464,7 +2464,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 109,
+    "id": 110,
     "lead_type": "procurement",
     "title": "睿尔曼发布全球首个官方AI原生机械臂，构建从开发层到服务层的AI全链路智能体验",
     "product_category": "other",
@@ -2490,7 +2490,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 110,
+    "id": 111,
     "lead_type": "procurement",
     "title": "2025注塑机机械臂厂家选型深度指南：从技术适配到场景落地的5大核心考量",
     "product_category": "other",
@@ -2516,7 +2516,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 111,
+    "id": 112,
     "lead_type": "procurement",
     "title": "2025年焊接机械臂选型指南：主流品牌深度评估与场景适配排名",
     "product_category": "other",
@@ -2542,7 +2542,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 112,
+    "id": 113,
     "lead_type": "procurement",
     "title": "上海机械臂厂家哪家强？ ——上海机械臂厂家综合推荐：深度分析、精准选型",
     "product_category": "other",
@@ -2568,7 +2568,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 113,
+    "id": 114,
     "lead_type": "procurement",
     "title": "机械臂是不是人工智能？ ——从“机械臂”到“智能伙伴”：AI如何重新定义自动化未来？",
     "product_category": "other",
@@ -2594,7 +2594,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 114,
+    "id": 115,
     "lead_type": "procurement",
     "title": "六轴协作机械臂选购指南：主流品牌深度解析与场景化推荐",
     "product_category": "other",
@@ -2620,7 +2620,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 115,
+    "id": 116,
     "lead_type": "procurement",
     "title": "实验室机械臂推荐|多家主流机械臂品牌在生物医疗场景的应用测评",
     "product_category": "other",
@@ -2646,7 +2646,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 116,
+    "id": 117,
     "lead_type": "procurement",
     "title": "三大机械臂品牌核心优势全解析",
     "product_category": "other",
@@ -2672,7 +2672,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 117,
+    "id": 118,
     "lead_type": "procurement",
     "title": "越疆的“关键一跃”：工博会展示从机械臂到人形机器人，按下“具身工业”产业加速键",
     "product_category": "other",
@@ -2698,7 +2698,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 118,
+    "id": 119,
     "lead_type": "procurement",
     "title": "越疆机器人发布全球首款六足仿生机器狗，集成机械臂与人形技术",
     "product_category": "other",
@@ -2724,7 +2724,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 119,
+    "id": 120,
     "lead_type": "procurement",
     "title": "越疆发布六足机器狗！全球首推“机械臂+人形+六足”具身机器人平台",
     "product_category": "other",
@@ -2750,7 +2750,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 120,
+    "id": 121,
     "lead_type": "procurement",
     "title": "机器人“首秀”完成！威海市首台机械臂加持末动力手术机器人“亚毫米级精准”开启“智换”新时代",
     "product_category": "other",
@@ -2776,7 +2776,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 121,
+    "id": 122,
     "lead_type": "procurement",
     "title": "人形机器人和机械臂都不是装修的未来",
     "product_category": "other",
@@ -2802,7 +2802,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 122,
+    "id": 123,
     "lead_type": "procurement",
     "title": "机械臂模拟人类按摩，德壹发布全球首款端侧大模型 AI 具身理疗机器人",
     "product_category": "other",
@@ -2828,7 +2828,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 123,
+    "id": 124,
     "lead_type": "procurement",
     "title": "石头科技发布 Saros Z70 扫地机器人：配备机械臂，可自动把旧袜子放进篮子里",
     "product_category": "other",
@@ -2854,7 +2854,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 124,
+    "id": 125,
     "lead_type": "procurement",
     "title": "如何选择适合机械臂的六维力传感器？",
     "product_category": "other",
@@ -2880,7 +2880,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 125,
+    "id": 126,
     "lead_type": "procurement",
     "title": "赋予人类“超能力”：马斯克旗下 Neuralink 启动脑机接口控制机械臂试验",
     "product_category": "other",
@@ -2906,7 +2906,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 126,
+    "id": 127,
     "lead_type": "procurement",
     "title": "人造肌肉可承受千倍于自重的应力  有望为机器人带来更强大机械臂",
     "product_category": "other",
@@ -2932,7 +2932,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 127,
+    "id": 128,
     "lead_type": "procurement",
     "title": "当 AI 遇上机械臂？NVIDIA 再破局，让下一代机器人技术触手可及",
     "product_category": "other",
@@ -2958,7 +2958,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 128,
+    "id": 129,
     "lead_type": "procurement",
     "title": "马斯克脑机接口公司 Neuralink 计划将 Link 功能扩展到现实世界，以实现控制机械臂、轮椅等",
     "product_category": "other",
@@ -2984,7 +2984,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 129,
+    "id": 130,
     "lead_type": "procurement",
     "title": "六维力传感器增强机械臂在复杂环境感知能力",
     "product_category": "other",
@@ -3010,7 +3010,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 130,
+    "id": 131,
     "lead_type": "procurement",
     "title": "新机械臂可高效精准助力量子实验",
     "product_category": "other",
@@ -3036,7 +3036,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 131,
+    "id": 132,
     "lead_type": "procurement",
     "title": "特斯拉柏林超级工厂新开放展厅，设有自动倒啤酒和煮咖啡的机械臂",
     "product_category": "other",
@@ -3062,7 +3062,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 132,
+    "id": 133,
     "lead_type": "procurement",
     "title": "让机械臂能按摩、会拉花 淄博这家机器人企业成立三年就已成为世界第二",
     "product_category": "other",
@@ -3088,7 +3088,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 133,
+    "id": 134,
     "lead_type": "procurement",
     "title": "机械臂浮动去毛刺",
     "product_category": "other",
@@ -3114,7 +3114,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 134,
+    "id": 135,
     "lead_type": "procurement",
     "title": "移动机械臂",
     "product_category": "other",
@@ -3140,7 +3140,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 135,
+    "id": 136,
     "lead_type": "procurement",
     "title": "机械臂军事",
     "product_category": "other",
@@ -3166,7 +3166,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 136,
+    "id": 137,
     "lead_type": "procurement",
     "title": "机械臂材料",
     "product_category": "other",
@@ -3192,7 +3192,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 137,
+    "id": 138,
     "lead_type": "procurement",
     "title": "六自由度机械臂的设计",
     "product_category": "other",
@@ -3218,7 +3218,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 138,
+    "id": 139,
     "lead_type": "procurement",
     "title": "医用机械臂",
     "product_category": "other",
@@ -3244,7 +3244,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 139,
+    "id": 140,
     "lead_type": "procurement",
     "title": "小型机械臂",
     "product_category": "other",
@@ -3270,7 +3270,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 140,
+    "id": 141,
     "lead_type": "procurement",
     "title": "机械臂市场",
     "product_category": "other",
@@ -3296,7 +3296,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 141,
+    "id": 142,
     "lead_type": "procurement",
     "title": "工业机械臂的精度",
     "product_category": "other",
@@ -3322,7 +3322,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 142,
+    "id": 143,
     "lead_type": "procurement",
     "title": "假肢机械臂",
     "product_category": "other",
@@ -3348,7 +3348,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 150,
+    "id": 151,
     "lead_type": "procurement",
     "title": "曙光云发布 政企可信桌面级AI智能体OneBox2026-11-17 07:25:12",
     "product_category": "other",
@@ -3374,7 +3374,7 @@ window.LEADS = [
     "is_real": true
   },
   {
-    "id": 151,
+    "id": 152,
     "lead_type": "procurement",
     "title": "“人工智能+” 拓展文化和科技融合边界2026-11-17 07:25:11",
     "product_category": "other",
